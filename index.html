@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <form name="calc">
+            <input id="textset" type="text" name="calcs">
+            <div id="inputyellow">
+                <input class="setno" type="button" value="1" onclick="calc.calcs.value+='1'">
+                <input class="setno" type="button" value="2" onclick="calc.calcs.value+='2'">
+                <input class="setno" type="button" value="3" onclick="calc.calcs.value+='3'">
+                <input class="setno" type="button" value="&lArr;" onclick="calc.calcs.value-='0'">
+                <input class="setno" type="button" value="4" onclick="calc.calcs.value+='4'">
+                <input class="setno" type="button" value="5" onclick="calc.calcs.value+='5'">
+                <input class="setno" type="button" value="6" onclick="calc.calcs.value+='6'">
+                <input class="setno" type="button" value="+" onclick="calc.calcs.value+='+'">
+                <input class="setno" type="button" value="7" onclick="calc.calcs.value+='7'">
+                <input class="setno" type="button" value="8" onclick="calc.calcs.value+='8'">
+                <input class="setno" type="button" value="9" onclick="calc.calcs.value+='9'">
+                <input class="setno" type="button" value="-" onclick="calc.calcs.value+='-'">
+                <input class="setno" type="button" value="." onclick="calc.calcs.value+='.'">
+                <input class="setno" type="button" value="0" onclick="calc.calcs.value+='0'">
+                <input class="setno" type="button" value="00" onclick="calc.calcs.value+='00'">
+                <input class="setno" type="button" value="*" onclick="calc.calcs.value+='*'">
+                <input class="setno" type="button" value="C" onclick="calc.calcs.value=' '">
+                <input id="equalset" type="button" value="=" onclick="calc.calcs.value=eval(calc.calcs.value)">
+                <input class="setno" type="button" value="/" onclick="calc.calcs.value+='/'">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
